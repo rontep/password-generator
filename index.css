@@ -1,0 +1,25 @@
+@font-face {
+    font-family: Karla;
+    src: url(./Karla-VariableFont_wght.ttf) format("opentype");
+}
+
+body {
+    margin: 0;
+    font-family: Karla, Helvetica, 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+}
+
+h1 {
+    color: #2B283A;
+}
+
+#header-line-two {
+    display: block;
+    color: #10B981;
+}
+
+#generate-button {
+    color: #FFF;
+    background-color: #10B981;
+    border-radius: 6px;
+    padding: 8px 16px;
+}
