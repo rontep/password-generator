@@ -1,15 +1,29 @@
 @font-face {
     font-family: Karla;
-    src: url(./Karla-VariableFont_wght.ttf) format("opentype");
+    src: url(./Karla-VariableFont_wght.ttf) format("opentype"),
+        url(./Karla-Italic-VariableFont_wght.ttf) format("opentype");
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(./Inter-VariableFont_slnt\,wght.ttf) format("opentype");
 }
 
 body {
-    margin: 0;
-    font-family: Karla, Helvetica, 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    background-color: #ECFDF5;
+    margin: 115px 50px;
+    font-family: Inter, Helvetica, 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
 }
 
 h1 {
+    letter-spacing: -.05em;
     color: #2B283A;
+    font: 800 40px Karla;
+}
+
+p {
+    color: #6B7280;
+    font-size: 20px;
 }
 
 #header-line-two {
@@ -22,4 +36,28 @@ h1 {
     background-color: #10B981;
     border-radius: 6px;
     padding: 8px 16px;
+    border: none;
+}
+
+hr {
+    height: 1px;
+    border-width: 0;
+    background-color: #D5D4D8;
+}
+
+#passwords-container {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#passwords-container > div {
+    height: 40px;
+    min-width: 200px;
+    background-color: #273549;
+    border-radius: 6px;
+}
+
+#password1 {
+    margin-right: 1px;
 }
