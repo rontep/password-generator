@@ -56,8 +56,12 @@ hr {
     min-width: 200px;
     background-color: #273549;
     border-radius: 6px;
+    color: #5DEF92;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#password1 {
+#password0 {
     margin-right: 1px;
 }

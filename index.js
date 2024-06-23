@@ -3,6 +3,7 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 
 let passwordLength = 14
 let numPasswords = 2
+
 function generatePassword() {
     let password = ""
     for (let i = 0; i < passwordLength; i++) {
@@ -12,10 +13,6 @@ function generatePassword() {
     return password
 }
 
-let generateButton = document.getElementById("generate-button")
-
-generateButton.addEventListener("click", showPasswords)
-
 function showPasswords() {
     for (let i = 0; i < numPasswords; i++) {
         let passwordBox = document.getElementById("password" + i)
@@ -23,4 +20,5 @@ function showPasswords() {
     }
 }
 
-showPasswords()
+let generateButton = document.getElementById("generate-button")
+generateButton.addEventListener("click", showPasswords)
