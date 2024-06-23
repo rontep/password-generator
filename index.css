@@ -12,7 +12,7 @@
 body {
     background-color: #ECFDF5;
     margin: 115px 50px;
-    font-family: Inter, Helvetica, 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    font-family: Inter, Helvetica, 'Gill Sans', sans-serif;
 }
 
 h1 {
@@ -41,6 +41,7 @@ p {
     border-radius: 6px;
     border: none;
     margin-top: 50px;
+    font-size: 16px;
 }
 
 hr {
@@ -51,7 +52,6 @@ hr {
 }
 
 #passwords-container {
-    list-style-type: none;
     display: flex;
     justify-content: space-between;
 }
